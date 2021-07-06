@@ -1,0 +1,124 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+    margin-top: 70px;
+}
+h2{
+    font-size: 40px;
+    margin-top: 80px;
+}
+h3{ 
+    font-size: 30px;
+}
+p{
+    color: gray;
+    margin-bottom: 70px;
+}
+.tomato-color{
+    color: tomato;
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 50px;
+}
+.half-width{
+    width: 50%;
+    padding: 3%;
+}
+.half-width img{
+    width: 90%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 15px 30px;
+    border-radius: 30px;
+    color: white;
+    box-shadow: 5px 5px 20px tomato;
+}
+.about-me{
+    background-image: url('images/shapes/7.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.about-me img{
+    width: 63%;
+}
+.margin-bottom{
+    margin-bottom: 100px;
+}
+.intro{
+    text-align: center;
+}
+.intro p{
+    padding: 20px 250px;
+}
+.recipe-item{
+    width: 30%;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: 10px 10px 20px gray;
+    border-radius: 30px;
+    padding: 20px;
+}
+.recipe-item img{
+    width: 100%;
+}
+.subscriber{
+    margin-left: 100px;
+    margin-right: 100px;
+    box-shadow: 10px 10px 20px gray;
+    border-radius: 20px;
+}
+.subscriber-items{
+    display: flex;
+}
+.subscriber-item{   
+    margin-left: 110px;
+    margin-right: 110px;
+}
+.chef{
+    width: 30%;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: 10px 10px 20px gray;
+    border-radius: 30px;
+    padding: 20px;
+}
+.chef img{
+    width: 100%;
+}
+.chef h3{
+    text-align: center;
+}
+.testimonial{
+    background-image: url('images/shapes/Frame\ 58.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+}
+.review img{
+    width: 20%;
+}
+.review p{
+    padding: 0;
+}
+.review h4{
+    padding-bottom: 20px;
+}
+footer{
+    padding-top: 50px;
+    background-color: black;
+    text-align: center;
+    height: 250px;
+}
+footer h3{
+    color: gray;
+}
+footer p{
+    padding-top: 20px;
+    color: white;
+}
